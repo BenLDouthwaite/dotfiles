@@ -3,6 +3,11 @@ syntax enable
 filetype plugin indent on 
 let mapleader=","
 
+
+" Escape from insert to normal mode with alternative / easier options
+inoremap jk <esc>
+inoremap kj <esc>
+
 " Disable arrow keys in normal mode
 nnoremap <Up> <Nop>
 nnoremap <Down> <Nop>
