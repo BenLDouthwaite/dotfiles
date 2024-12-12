@@ -13,6 +13,9 @@ for file in "$DOTFILES_DIR"/.*; do
   # Skip special files '.' and '..'
   [ "$(basename "$file")" == "." ] || [ "$(basename "$file")" == ".." ] && continue
 
+  # Skip .git
+  [ "$(basename "$file")" == ".git" ] && continue
+
   # Target symlink location
   target="$TARGET_DIR/$(basename "$file")"
 
