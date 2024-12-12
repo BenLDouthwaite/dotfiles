@@ -1,0 +1,8 @@
+# Likely to be different across devices, adjust as needed
+alias ref='cd $DEV_HOME/reference'
+alias dtf='cd $DEV_HOME/dotfiles'
+
+alias v=nvim
+alias vi=nvim
+alias pn=pnpm
+alias pnr=pnpm run dev
