@@ -8,6 +8,12 @@ let mapleader=","
 inoremap jk <esc>
 inoremap kj <esc>
 
+" In insert or command mode, move normally by using Ctrl
+inoremap <C-h> <Left>
+inoremap <C-j> <Down>
+inoremap <C-k> <Up>
+inoremap <C-l> <Right>
+
 " Disable arrow keys in normal mode
 nnoremap <Up> <Nop>
 nnoremap <Down> <Nop>
